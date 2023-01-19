@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "Menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": " "
+    },
+    "path": {
+      "type": "string",
+      "default": " "
+    },
+    "badge": {
+      "type": "string",
+      "default": " "
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "page",
+        "img",
+        "link"
+      ],
+      "default": "page",
+      "required": true
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
