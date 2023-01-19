@@ -1,4 +1,4 @@
-import path from 'path';
+import path from 'path'
 
 export default ({ env }) => ({
   connection: {
@@ -8,4 +8,4 @@ export default ({ env }) => ({
     },
     useNullAsDefault: true,
   },
-});
+})
