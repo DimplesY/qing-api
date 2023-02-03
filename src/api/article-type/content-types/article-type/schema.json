@@ -4,7 +4,8 @@
   "info": {
     "singularName": "article-type",
     "pluralName": "article-types",
-    "displayName": "ArticleType"
+    "displayName": "ArticleType",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,6 +21,9 @@
       "relation": "manyToMany",
       "target": "api::article.article",
       "mappedBy": "article_types"
+    },
+    "path": {
+      "type": "string"
     }
   }
 }
