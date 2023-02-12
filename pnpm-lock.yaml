@@ -7,6 +7,7 @@ specifiers:
   '@strapi/strapi': 4.5.6
   better-sqlite3: 7.4.6
   eslint: ^8.32.0
+  strapi-plugin-populate-deep: ^2.0.0
   strapi-plugin-wysiwyg-react-md-editor: ^4.3.0
 
 dependencies:
@@ -15,6 +16,7 @@ dependencies:
   '@strapi/plugin-users-permissions': 4.5.6
   '@strapi/strapi': 4.5.6_better-sqlite3@7.4.6
   better-sqlite3: 7.4.6
+  strapi-plugin-populate-deep: 2.0.0
   strapi-plugin-wysiwyg-react-md-editor: 4.3.0_@strapi+strapi@4.5.6
 
 devDependencies:
@@ -11693,6 +11695,11 @@ packages:
 
   /std-env/3.3.1:
     resolution: {integrity: sha512-3H20QlwQsSm2OvAxWIYhs+j01MzzqwMwGiiO1NQaJYZgJZFPuAbf95/DiKRBSTYIJ2FeGUc+B/6mPGcWP9dO3Q==}
+    dev: false
+
+  /strapi-plugin-populate-deep/2.0.0:
+    resolution: {integrity: sha512-IsdXZPjRiOnaczoQaXI6xfxnFqUhR70uW1VCRbY4a3hEmmocpCpIUGx7TiHdNPJOZuDiueTgEIQ4V5XEru9Lvw==}
+    engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
     dev: false
 
   /strapi-plugin-wysiwyg-react-md-editor/4.3.0_@strapi+strapi@4.5.6:
