@@ -38,17 +38,6 @@
       "target": "api::article-type.article-type",
       "inversedBy": "articles"
     },
-    "authorImg": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "view": {
       "type": "integer",
       "default": 0
