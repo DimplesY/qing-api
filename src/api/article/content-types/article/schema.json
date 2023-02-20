@@ -12,10 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "author": {
-      "type": "string",
-      "required": true
-    },
     "title": {
       "type": "string",
       "required": true
@@ -56,6 +52,11 @@
     "view": {
       "type": "integer",
       "default": 0
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::author.author"
     }
   }
 }
