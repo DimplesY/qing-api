@@ -8,7 +8,7 @@ export default factories.createCoreController('api::article.article', ({ strapi 
   async find(ctx) {
     ctx.query = {
       ...ctx.query,
-      populate: 'deep',
+      populate: '*',
     }
     return await super.find(ctx)
   },
